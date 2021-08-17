@@ -2,10 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Bio from './Bio';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <Bio />
   </React.StrictMode>,
   document.getElementById('root')
 );
