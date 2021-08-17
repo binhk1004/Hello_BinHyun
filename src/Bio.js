@@ -3,7 +3,12 @@ import './Bio.css';
 function Bio() {
     return (
       <div className="Bio">
-        <h1>테스트2</h1>
+        <header>
+          <div>
+            <img src="images/main_profile.jpeg" alt="증명사진"></img>
+          </div>
+        </header>
+
       </div>
     );
   }
