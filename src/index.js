@@ -3,11 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import Bio from './Bio';
+import Test from './Test';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
     <Bio />
+    <Test />
   </React.StrictMode>,
   document.getElementById('root')
 );
