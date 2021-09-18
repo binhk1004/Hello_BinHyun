@@ -22,7 +22,7 @@ const Test = () => {
   console.log(y);
     return (
       <div className="Example">
-         {y > 600 ? <p>참이면 보여줄 이미지</p> : <p>실패</p>}
+         {y > 600 ? <p>참이면 보여줄 이미지</p> : null}
       </div>
     );
   };
