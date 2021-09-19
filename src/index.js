@@ -4,17 +4,14 @@ import './index.css';
 import Bio from './Bio';
 import Carrer from './Career';
 import AboutMe from './AboutMe';
+import HeadNav from './HeadNav';
 
 ReactDOM.render(
   <React.StrictMode>
-<<<<<<< HEAD
+    <HeadNav />
     <Bio /> 
     <AboutMe />
     <Carrer />
-=======
-    <App />
-    <Bio />
->>>>>>> 19eb740123ad68dfca6d647ac921bed8a322e8f0
   </React.StrictMode>,
   document.getElementById('root')
 );

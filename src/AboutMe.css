@@ -1,17 +1,27 @@
-.main{
+.top{
+    justify-content: center;
     text-align: center;
+    padding-bottom: 30px;
+}
+
+.main{
     display: flex;
     justify-content: center;
-
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    flex-wrap: wrap;
 }
 
 .icons{
-    text-align: center;
-    margin-right: 50px;
-    float: left;
+    /* justify-content: space-between; */
+    width: 30%;
+    padding-bottom: 30px;
 }
 
 .icon{
-    margin-right: 10px;
     font-size: 30px;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }

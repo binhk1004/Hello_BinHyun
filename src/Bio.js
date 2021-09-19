@@ -1,31 +1,15 @@
-<<<<<<< HEAD
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Nav } from "react-bootstrap";
 import { Container } from "react-bootstrap";
 import { Col } from "react-bootstrap";
 import {Image} from "react-bootstrap"
-=======
 import './Bio.css';
->>>>>>> 19eb740123ad68dfca6d647ac921bed8a322e8f0
+
 
 import "./Bio.css";
 
 function Bio() {
   return (
     <div className="Bio">
-      <nav className="nav">
-        <Nav variant="pills" defaultActiveKey="/home">
-          <Nav.Item>
-            <Nav.Link href="/home">Home</Nav.Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Nav.Link eventKey="link-1">Bio</Nav.Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Nav.Link eventKey="link-2">Carrer</Nav.Link>
-          </Nav.Item>
-        </Nav>
-      </nav>
       <header className="hello">
         <Container>
           <Col xs={15} md={20}>
