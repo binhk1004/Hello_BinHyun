@@ -9,7 +9,6 @@ ReactDOM.render(
   <React.StrictMode>
     <App />
     <Bio />
-    <Test />
   </React.StrictMode>,
   document.getElementById('root')
 );
