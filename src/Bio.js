@@ -1,8 +1,12 @@
+<<<<<<< HEAD
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Nav } from "react-bootstrap";
 import { Container } from "react-bootstrap";
 import { Col } from "react-bootstrap";
 import {Image} from "react-bootstrap"
+=======
+import './Bio.css';
+>>>>>>> 19eb740123ad68dfca6d647ac921bed8a322e8f0
 
 import "./Bio.css";
 

@@ -7,9 +7,14 @@ import AboutMe from './AboutMe';
 
 ReactDOM.render(
   <React.StrictMode>
+<<<<<<< HEAD
     <Bio /> 
     <AboutMe />
     <Carrer />
+=======
+    <App />
+    <Bio />
+>>>>>>> 19eb740123ad68dfca6d647ac921bed8a322e8f0
   </React.StrictMode>,
   document.getElementById('root')
 );
