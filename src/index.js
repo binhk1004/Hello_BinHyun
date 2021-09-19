@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import Bio from './Bio';
 import Carrer from './Career';
+import AboutMe from './AboutMe';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Bio />
-    <App /> 
+    <Bio /> 
+    <AboutMe />
     <Carrer />
   </React.StrictMode>,
   document.getElementById('root')
