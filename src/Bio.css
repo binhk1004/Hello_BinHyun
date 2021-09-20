@@ -6,7 +6,8 @@
   background-repeat : no-repeat;
   background-position: center;
   background-size: cover;
-  position: relative
+  position: relative;
+  font-family: 'SBAggroB';
 }
 
 .Bio-header {

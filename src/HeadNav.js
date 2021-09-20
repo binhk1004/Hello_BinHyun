@@ -13,7 +13,10 @@ const HeadNav = () => {
           <Nav.Link eventKey="link-1">Bio</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link eventKey="link-2">Carrer</Nav.Link>
+          <Nav.Link eventKey="link-2">Skills and Tools</Nav.Link>
+        </Nav.Item>
+        <Nav.Item>
+          <Nav.Link eventKey="link-3">Work Experience</Nav.Link>
         </Nav.Item>
       </Nav>
     </nav>

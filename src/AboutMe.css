@@ -2,6 +2,7 @@
     justify-content: center;
     text-align: center;
     padding-bottom: 30px;
+    font-family: 'SBAggroB';
 }
 
 .main{
@@ -12,6 +13,7 @@
     margin: 0 auto;
     padding-bottom: 30px;
     flex-wrap: wrap;
+    font-family: 'SBAggroB';
 }
 
 .icons{

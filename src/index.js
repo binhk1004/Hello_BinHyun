@@ -1,16 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Bio from './Bio';
-import Carrer from './Career';
-import AboutMe from './AboutMe';
+
 import HeadNav from './HeadNav';
+import Bio from './Bio';
+import AboutMe from './AboutMe';
+import Skills from './Skills'
+import Carrer from './Career';
 
 ReactDOM.render(
   <React.StrictMode>
     <HeadNav />
     <Bio /> 
     <AboutMe />
+    <Skills />
     <Carrer />
   </React.StrictMode>,
   document.getElementById('root')
