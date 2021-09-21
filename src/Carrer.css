@@ -20,8 +20,12 @@ div{
 
 .carrer{
   display: flex;
-  justify-content: center;
+  /* margin-left: 250px; */
 }
+
+/* .carrer-container{
+    margin-bottom: 0px;
+} */
 
 .carrer_image{
     height: 150px;
