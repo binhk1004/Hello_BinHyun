@@ -10,7 +10,7 @@ import "./AboutMe.css";
 const AboutMe = () => {
   return (
     <div>
-      <div className="top">
+      <div className="aboutme-container">
         <h1>About Me</h1>
       </div>
       <div className="main">

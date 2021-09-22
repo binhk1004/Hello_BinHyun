@@ -25,7 +25,7 @@ import postman from './static/images/postman-icon.svg'
 
 const Skills = () => {
   return (
-    <div className="top">
+    <div className="skill-container">
         <div className="title">
             <h1>Skills and Tools</h1>
         </div>
