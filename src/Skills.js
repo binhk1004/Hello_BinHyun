@@ -1,26 +1,6 @@
 import { Card } from "react-bootstrap";
+import ImageMaps from './ImageMap.json'
 import "./Skills.css";
-import html from './static/images/html-5.svg'
-import css from './static/images/css-3.svg'
-import js from './static/images/javascript.svg'
-import python from './static/images/python.svg'
-import java from './static/images/java.svg'
-import react from './static/images/react.svg'
-import go from './static/images/go.svg'
-import typescript from './static/images/typescript-icon.svg'
-import linux from './static/images/linux-tux.svg'
-import sql from './static/images/mysql.svg'
-import git from './static/images/git-icon.svg'
-import github from './static/images/github-icon.svg'
-import jira from './static/images/jira.svg'
-import slack from './static/images/slack-icon.svg'
-import trello from './static/images/trello.svg'
-import vscode from './static/images/visual-studio-code.svg'
-import eclipse from './static/images/eclipse-icon.svg'
-import pycharm from './static/images/pycharm.svg'
-import webstorm from './static/images/webstorm.svg'
-import postman from './static/images/postman-icon.svg'
-
 
 
 const Skills = () => {
@@ -35,11 +15,7 @@ const Skills = () => {
                 <Card border="light">
                     <header>I Like</header>
                     <Card.Body>
-                        <img src={html} alt="html5" className="photo" />
-                        <img src={css} alt="css3" className="photo" />
-                        <img src={js} alt="javascript" className="photo" />
-                        <img src={python} alt="python" className="photo" />
-                        <img src={java} alt="python" className="photo" />
+                        {ImageMaps.SkillLike.map((SkillLike)=><img key={SkillLike.id} src={SkillLike.image} alt={SkillLike.title} className={SkillLike.className} />)}
                     </Card.Body>
                 </Card>
                 </div>
@@ -49,11 +25,7 @@ const Skills = () => {
                     I'm Interesting<br></br>
                     </header>
                     <Card.Body>
-                        <img src={react} alt="react" className="photo" />
-                        <img src={go} alt="go" className="photo" />
-                        <img src={typescript} alt="typescript" className="photo" />
-                        <img src={linux} alt="linux" className="photo" />
-                        <img src={sql} alt="sql" className="photo" />
+                        {ImageMaps.SkillInteresting.map((SkillInteresting)=><img key={SkillInteresting.id} src={SkillInteresting.image} alt={SkillInteresting.title} className={SkillInteresting.className} />)}
                         <img
                             className="photo"
                             alt="sqlalchemy"
@@ -68,8 +40,7 @@ const Skills = () => {
                     Version Control<br></br>
                     </header>
                     <Card.Body>
-                        <img src={git} alt="git" className="photo" />
-                        <img src={github} alt="github" className="photo" />
+                        {ImageMaps.SkillVersion.map((SkillVersion)=><img key={SkillVersion.id} src={SkillVersion.image} alt={SkillVersion.title} className={SkillVersion.className} />)}
                     </Card.Body>
                 </Card>
                 </div>
@@ -79,9 +50,7 @@ const Skills = () => {
                     Communication<br></br>
                     </header>
                     <Card.Body>
-                        <img src={jira} alt="jira" className="photo" />
-                        <img src={slack} alt="slack" className="photo" />
-                        <img src={trello} alt="trello" className="photo" />
+                        {ImageMaps.SkillCommu.map((SkillCommu)=><img key={SkillCommu.id} src={SkillCommu.image} alt={SkillCommu.title} className={SkillCommu.className} />)}
                     </Card.Body>
                 </Card>
                 </div>
@@ -91,11 +60,7 @@ const Skills = () => {
                     Tools<br></br>
                     </header>
                     <Card.Body>
-                        <img src={vscode} alt="vscode" className="photo" />
-                        <img src={eclipse} alt="eclipse" className="photo" />
-                        <img src={pycharm} alt="pycharm" className="photo" />
-                        <img src={webstorm} alt="webstorm" className="photo" />
-                        <img src={postman} alt="postman" className="photo" />
+                        {ImageMaps.SkillTools.map((SkillTools)=><img key={SkillTools.id} src={SkillTools.image} alt={SkillTools.title} className={SkillTools.className} />)}
                     </Card.Body>
                 </Card>
                 </div>
