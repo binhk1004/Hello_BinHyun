@@ -1,0 +1,169 @@
+{
+  "CardContents": [
+    {
+      "id": "1",
+      "CardClass": "cards",
+      "CardTitle": "I Like",
+      "Content": [
+        {
+          "id": "1",
+          "title": "html5",
+          "image": "images/html-5.svg",
+          "className": "photo"
+        },
+        {
+          "id": "2",
+          "title": "css3",
+          "image": "images/css-3.svg",
+          "className": "photo"
+        },
+        {
+          "id": "3",
+          "title": "JavaScript",
+          "image": "images/javascript.svg",
+          "className": "photo"
+        },
+        {
+          "id": "4",
+          "title": "Python",
+          "image": "images/python.svg",
+          "className": "photo"
+        },
+        {
+          "id": "5",
+          "title": "Java",
+          "image": "images/java.svg",
+          "className": "photo"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "CardClass": "cards",
+      "CardTitle": "I'm Interesting",
+      "Content": [
+        {
+          "id": "1",
+          "title": "react",
+          "image": "images/react.svg",
+          "className": "photo"
+        },
+        {
+          "id": "2",
+          "title": "go",
+          "image": "images/go.svg",
+          "className": "photo"
+        },
+        {
+          "id": "3",
+          "title": "TypeScript",
+          "image": "images/typescript-icon.svg",
+          "className": "photo"
+        },
+        {
+          "id": "4",
+          "title": "Linux",
+          "image": "images/linux-tux.svg",
+          "className": "photo"
+        },
+        {
+          "id": "5",
+          "title": "SQL",
+          "image": "images/mysql.svg",
+          "className": "photo"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "CardClass": "cards",
+      "CardTitle": "Version Control",
+      "Content": [
+        {
+          "id": "1",
+          "title": "git",
+          "image": "images/git-icon.svg",
+          "className": "photo"
+        },
+        {
+          "id": "2",
+          "title": "github",
+          "image": "images/github-icon.svg",
+          "className": "photo"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "CardClass": "cards",
+      "CardTitle": "Communication",
+      "Content": [
+        {
+          "id": "1",
+          "title": "jira",
+          "image": "images/jira.svg",
+          "className": "photo"
+        },
+        {
+          "id": "2",
+          "title": "slack",
+          "image": "images/slack-icon.svg",
+          "className": "photo"
+        },
+        {
+          "id": "3",
+          "title": "trello",
+          "image": "images/trello.svg",
+          "className": "photo"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "CardClass": "cards",
+      "CardTitle": "Tools",
+      "Content": [
+        {
+          "id": "1",
+          "title": "vscode",
+          "image": "images/visual-studio-code.svg",
+          "className": "photo"
+        },
+        {
+          "id": "2",
+          "title": "eclipse",
+          "image": "images/eclipse-icon.svg",
+          "className": "photo"
+        },
+        {
+          "id": "3",
+          "title": "pycharm",
+          "image": "images/pycharm.svg",
+          "className": "photo"
+        },
+        {
+          "id": "4",
+          "title": "webstorm",
+          "image": "images/webstorm.svg",
+          "className": "photo"
+        },
+        {
+          "id": "3",
+          "title": "postman",
+          "image": "images/postman-icon.svg",
+          "className": "photo"
+        }
+      ]
+    }
+  ],
+  "Aboutme":[
+      {
+          "id": "1",
+          "className": "icons",
+          "IconName" : "<FcBusinessman/>",
+          "IconClass": "icon",
+          "context": "이름<br></br>김빈현"
+
+      }
+  ]
+}

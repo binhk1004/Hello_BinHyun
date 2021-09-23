@@ -1,9 +1,11 @@
+
 import { Card } from "react-bootstrap";
-import ImageMaps from './ImageMap.json'
+import DataMaps from './DataMap.json'
 import "./Skills.css";
 
 
 const Skills = () => {
+
   return (
     <div className="skill-container">
         <div className="title">
@@ -11,63 +13,18 @@ const Skills = () => {
         </div>
         <div className="contents">
             <div className="contents-head">
-                <div className="cards">
+                {DataMaps.CardContents.map((CardContents)=>
+                <div className={CardContents.CardClass}>
                 <Card border="light">
-                    <header>I Like</header>
+                    <header>{CardContents.CardTitle}</header>
                     <Card.Body>
-                        {ImageMaps.SkillLike.map((SkillLike)=><img key={SkillLike.id} src={SkillLike.image} alt={SkillLike.title} className={SkillLike.className} />)}
+                        {CardContents.Content&&CardContents.Content.map((Content)=><img key={Content.id} src={Content.image} alt={Content.title} className={Content.className} />)}
                     </Card.Body>
                 </Card>
-                </div>
-                <div className="cards">
-                <Card border="light">
-                    <header>
-                    I'm Interesting<br></br>
-                    </header>
-                    <Card.Body>
-                        {ImageMaps.SkillInteresting.map((SkillInteresting)=><img key={SkillInteresting.id} src={SkillInteresting.image} alt={SkillInteresting.title} className={SkillInteresting.className} />)}
-                        <img
-                            className="photo"
-                            alt="sqlalchemy"
-                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlalchemy/sqlalchemy-original-wordmark.svg"
-                        />
-                    </Card.Body>
-                </Card>
-                </div>
-                <div className="cards">
-                <Card border="light">
-                    <header>
-                    Version Control<br></br>
-                    </header>
-                    <Card.Body>
-                        {ImageMaps.SkillVersion.map((SkillVersion)=><img key={SkillVersion.id} src={SkillVersion.image} alt={SkillVersion.title} className={SkillVersion.className} />)}
-                    </Card.Body>
-                </Card>
-                </div>
-                <div className="cards">
-                <Card border="light">
-                    <header>
-                    Communication<br></br>
-                    </header>
-                    <Card.Body>
-                        {ImageMaps.SkillCommu.map((SkillCommu)=><img key={SkillCommu.id} src={SkillCommu.image} alt={SkillCommu.title} className={SkillCommu.className} />)}
-                    </Card.Body>
-                </Card>
-                </div>
-                <div className="cards">
-                <Card border="light">
-                    <header>
-                    Tools<br></br>
-                    </header>
-                    <Card.Body>
-                        {ImageMaps.SkillTools.map((SkillTools)=><img key={SkillTools.id} src={SkillTools.image} alt={SkillTools.title} className={SkillTools.className} />)}
-                    </Card.Body>
-                </Card>
-                </div>
+                </div>)}
             </div>
         </div>
     </div>
-
   );
 };
 

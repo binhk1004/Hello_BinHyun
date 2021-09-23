@@ -4,6 +4,7 @@ import { FcPhone } from "react-icons/fc";
 import { FcHome } from "react-icons/fc";
 import { FcInvite } from "react-icons/fc";
 import { FcLibrary } from "react-icons/fc";
+import DataMaps from './DataMap.json'
 
 import "./AboutMe.css";
 
@@ -14,6 +15,12 @@ const AboutMe = () => {
         <h1>About Me</h1>
       </div>
       <div className="main">
+        {DataMaps.Aboutme.map((Aboutme)=>
+        <div className={Aboutme.className}>
+          {Aboutme.IconName} className={Aboutme.IconClass}
+          {Aboutme.context}
+        </div>)}
+
         <div className="icons">
           <FcBusinessman className="icon" />
           이름<br></br>
