@@ -15,7 +15,7 @@ const Skills = () => {
             <div className="contents-head">
                 {DataMaps.CardContents.map((CardContents)=>
                 <div className={CardContents.CardClass}>
-                <Card border="light">
+                <Card border="light" className="skillCards">
                     <header>{CardContents.CardTitle}</header>
                     <Card.Body>
                         {CardContents.Content&&CardContents.Content.map((Content)=><img key={Content.id} src={Content.image} alt={Content.title} className={Content.className} />)}

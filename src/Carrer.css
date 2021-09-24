@@ -1,5 +1,6 @@
 h1{
     text-align: center;
+    margin-top: 20px;
 }
 h3{
     margin-top: 30px;
@@ -17,18 +18,21 @@ div{
     margin-top: 10px;
 }
 
-
-.carrer{
-  display: flex;
-  /* margin-left: 250px; */
+.carrer-container{
 }
 
-/* .carrer-container{
-    margin-bottom: 0px;
-} */
+.Cardcontainer{
+    display: flex;
+    margin: 0 auto;
+}
+
+.CarrerCard{
+    margin: 10px auto;
+    justify-content: center;
+}
 
 .carrer_image{
-    height: 150px;
-    width: 150px;
-    margin-right: 20px;
+    margin: 0 auto;
+    height: 180px;
+    width: 200px;
 }
