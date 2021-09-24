@@ -14,7 +14,7 @@ function Bio() {
       <header className="hello">
         <Container>
           <Col xs={15} md={20}>
-            <Image className="photo" src={profile} roundedCircle />
+            <Image className="Bio-photo" src={profile} roundedCircle />
           </Col>
         </Container>
         <br></br>
