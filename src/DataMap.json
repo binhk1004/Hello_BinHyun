@@ -156,14 +156,60 @@
       ]
     }
   ],
-  "Aboutme":[
-      {
-          "id": "1",
-          "className": "icons",
-          "IconName" : "<FcBusinessman/>",
-          "IconClass": "icon",
-          "context": "이름<br></br>김빈현"
-
-      }
+  "Aboutme": [
+    {
+      "id": "1",
+      "className": "icons",
+      "IconName": "images/businessman.png",
+      "IconAlt": "businessman",
+      "IconClass": "icon",
+      "ContextTitle": "이름",
+      "Context": "김빈현"
+    },
+    {
+      "id": "2",
+      "className": "icons",
+      "IconName": "images/calendar.png",
+      "IconAlt": "calendar",
+      "IconClass": "icon",
+      "ContextTitle": "생년월일",
+      "Context": "1989년 06월 21일"
+    },
+    {
+      "id": "3",
+      "className": "icons",
+      "IconName": "images/cellphone.png",
+      "IconAlt": "cellphone",
+      "IconClass": "icon",
+      "ContextTitle": "연락처",
+      "Context": "010-7310-8057"
+    },
+    {
+      "id": "4",
+      "className": "icons",
+      "IconName": "images/home.png",
+      "IconAlt": "home",
+      "IconClass": "icon",
+      "ContextTitle": "주소지",
+      "Context": "경상북도 경주시"
+    },
+    {
+      "id": "5",
+      "className": "icons",
+      "IconName": "images/mail.png",
+      "IconAlt": "mail",
+      "IconClass": "icon",
+      "ContextTitle": "메일주소",
+      "Context": "binhk1004@naver.com"
+    },
+    {
+      "id": "6",
+      "className": "icons",
+      "IconName": "images/school.png",
+      "IconAlt": "school",
+      "IconClass": "icon",
+      "ContextTitle": "학력",
+      "Context": "Alma la Scuola Internazionale di Cucina"
+    }
   ]
 }
