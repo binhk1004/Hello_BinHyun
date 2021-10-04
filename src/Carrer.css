@@ -20,18 +20,16 @@ div{
     margin-top: 10px;
 }
 
-.carrer-container{
-}
-
 .Cardcontainer{
     display: flex;
-    margin: 10px auto;
 }
 
 .CarrerCard{
-    margin: 10px auto;
-    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+
 }
+
 
 .carrer_image{
     margin: 0 auto;
