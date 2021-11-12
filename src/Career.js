@@ -3,7 +3,7 @@ import "./Carrer.css";
 
 const Carrer = () => {
   return (
-    <div className="carrer-container" id="4">
+    <div className="carrer-container" id="4"> 
       <div>
         <h1>Work Experience</h1>
       </div>
