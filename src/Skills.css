@@ -5,9 +5,9 @@
     padding-bottom: 50px;
     background-color: #f9c51d;
 }
-.title{
+.skill-title{
     flex: auto;
-    padding: 15px 0px 15px 0px;
+    padding: 35px 0px 15px 0px;
 }
 
 .contents{

@@ -13,7 +13,7 @@ const Record = () => {
         <Card className="body" style={{ width: '30rem' }}>
             <Card.Body>
                 <div className="card-head">
-                    <img src = '/images/github-icon.svg' className="card-image"/>
+                    <img src = '/images/github-icon.svg' className="card-image" alt="github"/>
                     <Card.Title className="card-title">GitHub</Card.Title> 
                 </div>
                 <Card.Text className="card-contents">
@@ -28,7 +28,7 @@ const Record = () => {
         <Card className="body" style={{ width: '30rem' }}>
             <Card.Body>
                 <div className="card-head">
-                    <img src = '/images/velog.png' className="card-image"/>
+                    <img src = '/images/velog.png' className="card-image" alt="velog"/>
                     <Card.Title className="card-title">Velog</Card.Title> 
                 </div>
                 <Card.Text className="card-contents">

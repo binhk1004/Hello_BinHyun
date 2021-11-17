@@ -1,5 +1,8 @@
+.start_nav{
+  display: none;
+}
+
 .nav{
-    margin-top: 5px;
-    margin-bottom: 10px;
     font-family: 'SBAggroB';
+    background-color:white;
   }

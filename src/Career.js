@@ -8,7 +8,7 @@ const Clickevent = () => {
 const Carrer = () => {
   return (
     <div className="carrer-container" id="4"> 
-      <div className="title">
+      <div className="carrer-title">
         <h1>Work Experience</h1>
       </div>
       <div className="Cardcontainer">

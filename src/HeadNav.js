@@ -1,11 +1,21 @@
 import { Nav } from "react-bootstrap";
 import {Link} from 'react-scroll';
+import React, {useState, useEffect} from 'react';
 import './HeadNav.css';
 
 
 const HeadNav = () => {
+
+  const [scrollPosition, setScrollPosition] = useState(0);
+  const updateScroll = () => {
+    setScrollPosition(window.scrollY || document.documentElement.scrollTop);
+  }
+  useEffect(()=>{
+    window.addEventListener('scroll', updateScroll);
+  });
+
   return (
-    <nav className="nav">
+    <nav className={scrollPosition < 300 ? "start_nav" : "nav"}>
       <Nav className="justify-content-end fixed-top" defaultActiveKey="/home">
         <Nav.Item>
           <Nav.Link eventKey="link-1">

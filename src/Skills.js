@@ -8,7 +8,7 @@ const Skills = () => {
 
   return (
     <div className="skill-container">
-        <div className="title">
+        <div className="skill-title">
             <h1>Skills and Tools</h1>
         </div>
         <div className="contents">
