@@ -7,6 +7,7 @@ import Bio from './Bio';
 import AboutMe from './AboutMe';
 import Skills from './Skills'
 import Carrer from './Career';
+import Record from './Record';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -15,6 +16,7 @@ ReactDOM.render(
     <AboutMe />
     <Skills />
     <Carrer />
+    <Record />
   </React.StrictMode>,
   document.getElementById('root')
 );

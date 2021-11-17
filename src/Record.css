@@ -1,0 +1,48 @@
+.main{
+    display:flex;
+}
+
+.body{
+    margin: 0px 50px 10px 4px;
+}
+
+.title{
+    padding-top:30px;
+}
+
+.card-title{
+    height:30px;
+    line-height:30px;
+    text-align:center;
+}
+
+img{
+    text-align:center
+}
+
+.card-contents{
+    text-align:left;
+    margin-top:25px;
+}
+
+.card-image{
+    width : 80px;
+    height : 90px;
+    padding: 0px 10px 10px 4px;
+}
+
+.card-head{
+    display : flex;
+    display:space-between;
+    text-align:center;
+    justify-content: center;
+    height:100px;
+}
+
+.card-title{
+    line-height:100px;
+}
+
+.body:hover{
+    box-shadow:  1px 2px 10px 10px rgba(0,0,0,0.2);
+}

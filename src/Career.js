@@ -1,6 +1,10 @@
 import { Card, Button } from "react-bootstrap";
 import "./Carrer.css";
 
+const Clickevent = () => {
+  window.location.href = "http://fles.co.kr/"
+}
+
 const Carrer = () => {
   return (
     <div className="carrer-container" id="4"> 
@@ -9,7 +13,7 @@ const Carrer = () => {
       </div>
       <div className="Cardcontainer">
         <div className="CarrerCard">
-          <Card style={{ width: "40rem" }}>
+          <Card style={{ width: "50rem", border:"light"}}>
             <Card.Img
               variant="top"
               className="carrer_image"
@@ -46,12 +50,12 @@ const Carrer = () => {
                   SQL Alchemy를 이용하여 crawler로 발생된 Data 삽입 및 관리
                 </li>
               </Card.Text>
-              <Button variant="primary">Go somewhere</Button>
+              <Button variant="primary">회사 홈페이지</Button>
             </Card.Body>
           </Card>
         </div>
         <div className="CarrerCard">
-          <Card style={{ width: "40rem" }}>
+          <Card style={{ width: "50rem" }}>
             <Card.Img
               variant="top"
               className="carrer_image"
@@ -81,7 +85,7 @@ const Carrer = () => {
                   연동
                 </li>
               </Card.Text>
-              <Button variant="primary">Go somewhere</Button>
+              <Button variant="primary" onClick = {Clickevent}>회사 홈페이지</Button>
             </Card.Body>
           </Card>
         </div>

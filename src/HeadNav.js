@@ -27,6 +27,11 @@ const HeadNav = () => {
             <Link to='carrer-container' spy={true} smooth={true} duration={1}>Work Experience</Link>
           </Nav.Link>
         </Nav.Item>
+         <Nav.Item>
+          <Nav.Link eventKey="link-5">
+            <Link to='record-container' spy={true} smooth={true} duration={1}>Record and save</Link>
+          </Nav.Link>
+        </Nav.Item>
       </Nav>
     </nav>
   );
