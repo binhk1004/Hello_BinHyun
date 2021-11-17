@@ -29,7 +29,12 @@ const HeadNav = () => {
         </Nav.Item>
          <Nav.Item>
           <Nav.Link eventKey="link-5">
-            <Link to='record-container' spy={true} smooth={true} duration={1}>Record and save</Link>
+            <Link to='record-container' spy={true} smooth={true} duration={1}>Record and Save</Link>
+          </Nav.Link>
+        </Nav.Item>
+        <Nav.Item>
+          <Nav.Link eventKey="link-6">
+            <Link to='project-container' spy={true} smooth={true} duration={1}>Project</Link>
           </Nav.Link>
         </Nav.Item>
       </Nav>
