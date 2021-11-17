@@ -5,7 +5,7 @@ const Record = () => {
     return (
     <div className="record-container" id="5">
 
-     <div className="title">
+     <div className="record-title">
         <h1>Record and Save</h1>
     </div>
 

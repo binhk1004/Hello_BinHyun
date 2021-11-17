@@ -5,7 +5,7 @@
 }
 .title{
     flex: auto;
-    padding-bottom: 30px;
+    padding-bottom: 15px;
 }
 .contents{
     font-family: 'SBAggroB';
@@ -14,7 +14,7 @@
     display: flex;
 }
 .skillCards{
-    margin-top: 20px;
+    margin-top: 10px;
     margin-left: 10px;
     margin-right: 20px;
 }
