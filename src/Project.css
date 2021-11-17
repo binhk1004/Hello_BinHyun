@@ -5,3 +5,11 @@
 .card-list{
     margin: 0 auto;
 }
+
+.card-title{
+    margin-bottom: 20px;
+}
+
+/* .card-text{
+    text-align: justify;
+} */
