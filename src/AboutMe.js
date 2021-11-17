@@ -3,8 +3,8 @@ import "./AboutMe.css";
 
 const AboutMe = () => {
   return (
-    <div>
-      <div className="aboutme-container">
+    <div className="aboutme-container">
+      <div className="title">
         <h1>About Me</h1>
       </div>
       <div className="main">

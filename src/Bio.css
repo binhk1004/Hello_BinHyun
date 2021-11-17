@@ -8,6 +8,7 @@
   background-size: cover;
   position: relative;
   font-family: 'SBAggroB';
+  background-color: #5e4f45;
 }
 
 .Bio-header {
@@ -33,4 +34,3 @@
   height: 100px;
   width: 100px; 
 }
-
