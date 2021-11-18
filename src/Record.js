@@ -21,7 +21,7 @@ const Record = () => {
                     <br></br>
                     <li>개인 프로젝트 및 공부한 코드를 저장해 두었습니다.</li> 
                 </Card.Text>
-                <Button href="https://github.com/binhk1004">깃허브 둘러보기</Button>
+                <Button onClick={()=>window.open('https://github.com/binhk1004', '_blank')}>깃허브 둘러보기</Button>
             </Card.Body>
         </Card>
 
@@ -36,7 +36,7 @@ const Record = () => {
                     <br></br>
                     <li>프로젝트의 진행 및 공부한 내용을 기록해두었습니다.</li> 
                 </Card.Text>
-               <Button href="https://velog.io/@binhk1004">블로그 둘러보기</Button>
+               <Button onClick={()=>window.open('https://velog.io/@binhk1004', '_blank')}>블로그 둘러보기</Button>
             </Card.Body>
         </Card>
     </div>

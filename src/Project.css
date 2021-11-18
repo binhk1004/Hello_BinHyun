@@ -4,16 +4,35 @@
 
 .card-list{
     margin: 0 auto;
+    margin-bottom: 150px;
 }
 
 .card-title{
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .project-title{
     padding: 35px 0px 15px 0px;
 }
 
-/* .card-text{
-    text-align: justify;
-} */
+.project-introduce{
+    text-align: left;
+}
+
+.project-text{
+    width: 50%;
+    float: right;
+    text-align: left;
+}
+
+.project-image{
+    width: 50%;
+    float: left;
+    margin-right: 15px;
+} 
+
+.project-view{  
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
