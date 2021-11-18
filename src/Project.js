@@ -15,7 +15,7 @@ const Project = () => {
                     </div>
                     <Card.Body className="test">
                         <div className="project-image">
-                        <Card.Img variant="top" src="images/where_is_my_restaurant.png" className="project-view" />
+                        <Card.Img variant="top" src="images/where_is_my_restaurant.gif" className="project-view" />
                         </div>
                         
                         <Card.Text className="project-text">
@@ -42,12 +42,14 @@ const Project = () => {
                     </Card.Body>
                 </Card>
 
-                <Card border="dark" className="card-list" style={{ width: '75rem', height: '55rem' }}>
+                <Card border="dark" className="card-list" style={{ width: '75rem', height: '35rem' }}>
                     <div className="card-title">
                         <h3>포트폴리오 웹사이트(React)</h3>
                     </div>
                     <Card.Body className="test">
-                        <Card.Img variant="top" src="images/react.svg" className="project-image" />
+                        <div className="project-image">
+                            <Card.Img variant="top" src="images/hello_binhyun.gif" className="project-view" />
+                        </div>
                         <Card.Text className="project-text">
                         <p>
                             취업준비를 위해 React로 제작된 개인 PR용 페이지 입니다. <br></br>
