@@ -9,6 +9,7 @@ import Skills from './Skills'
 import Carrer from './Career';
 import Record from './Record';
 import Project from './Project';
+import Footer from './Footer';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -19,6 +20,8 @@ ReactDOM.render(
     <Carrer />
     <Record />
     <Project />
+    <Footer />
+
   </React.StrictMode>,
   document.getElementById('root')
 );
