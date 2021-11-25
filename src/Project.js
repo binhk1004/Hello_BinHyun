@@ -30,9 +30,9 @@ const Project = () => {
                         그리고 로그인과 관련하여 http통신에 대해 좀 더 공부를 해보았으면 하는 아쉬움을 느끼었습니다.</p>
                         <hr width="100%"></hr>
                         <p>주요기능 : 로그인, 로그아웃, 게시글 작성,수정, 삭제, 관리자계정 로그인</p>
-                        <p>GitHub : <a href="https://github.com/binhk1004/where_is_my_restaurant" target="_blank" rel="noopener noreferrer">where_is_my_restaurant</a></p>
-                        <p>블로그 : <a href="https://velog.io/@binhk1004/series/%EC%9E%90%EB%B0%94%EB%A5%BC-Java%EB%B3%B4%EC%9E%90" target="_blank" rel="noopener noreferrer">where_is_my_restaurant</a></p>
-                        <p>도메인 : www.naver.com</p>
+                        <p>GitHub : <a href="https://github.com/binhk1004/where_is_my_restaurant" target="_blank" rel="noopener noreferrer">github.com/binhk1004/where_is_my_restaurant</a></p>
+                        <p>블로그 : <a href="https://velog.io/@binhk1004/series/%EC%9E%90%EB%B0%94%EB%A5%BC-Java%EB%B3%B4%EC%9E%90" target="_blank" rel="noopener noreferrer">velog.io/@binhk1004</a></p>
+                        <p>도메인 : <a href="http://myrestaruant.tk/" target="_blank" rel="noopener noreferrer">myrestaruant.tk/</a></p>
                         <p>Front-end : Html, Css, JavaScript, Jsp, Jquery, bootstrap</p>
                         <p>Back-end : Java, Spring</p>
                         <p>DataBase : MySQL</p>
