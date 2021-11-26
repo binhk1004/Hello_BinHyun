@@ -69,6 +69,37 @@ const Project = () => {
                         </Card.Text>
                     </Card.Body>
                 </Card>
+                 {/* <Card border="dark" className="card-list" style={{ width: '75rem', height: '50rem' }}>
+                    <div className="card-title">
+                        <h3>꺼져 코로나(React)</h3>
+                    </div>
+                    <Card.Body className="test">
+                        <Card.Img variant="top" src="images/react.svg" className="project-image" />
+                        <Card.Text className="project-text">
+                        <p>
+                            코로나 확진자수를 확인 할 수 있는 간단한 페이지 입니다. 공공데이터 포털 API를 이용하여, 
+                            시도별로 그날의 확진수와 증가수를 볼 수 있습니다. 
+                        </p>
+                        <p>
+                            React만이 가진 기능들(Hook)을 공부해 볼 수 있었던 좋은 기회였으며, 
+                            얕게 이해를 하고 있던 React의 특성에 대해서 좀 더 파볼 수 있는 기회였습니다.<br></br>
+                            또한 Promise를 사용함으로써, 비동기 통신에 관해서 알아 볼 수 있었으며.<br></br>
+                            React환경 내에서 API를 다루는 방법에 대해서 학습하게 되었고, <br></br>
+                            지도API를 사용하지 않고 svg파일로 만들어진 지도를 직접 핸들링 해볼 수 있었습니다.<br></br>
+                            아쉬운점은 React가 UI 라이브러리로써 그 기능을 활용하여 조금 더 미관적으로 보기 
+                            좋게 꾸밀 수 있는데, 학습의 부족으로 스타일을 좀 더 가다듬지 못한것이 아쉬웠습니다.
+                        </p>
+                        <hr width="100%"></hr>
+                        <p>주요기능 : 시도별 클릭시 확진자 수 및 증감 수 조회</p>
+                        <p>GitHub : <a href="https://github.com/binhk1004/go_away_covid-19_react" target="_blank" rel="noopener noreferrer">go_away_covid-19_react</a></p>
+                        <p>블로그 : <a href="https://velog.io/@binhk1004/React-%EC%BD%94%EB%A1%9C%EB%82%98-%ED%98%84%ED%99%A9%ED%8C%90-%EB%A7%8C%EB%93%A4%EC%96%B4%EB%B3%B4%EA%B8%B0" target="_blank" rel="noopener noreferrer">go_away_covid-19_react</a></p>
+                        <p>도메인 : www.naver.com</p>
+                        <p>Front-end : Html, Css, JavaScript, React</p>
+                        <p>API : 공공데이터 포털</p>
+                        <p>Deployment: GitHub, Netlify</p>
+                        </Card.Text>
+                    </Card.Body>
+                </Card> */}
             </div>
         </div>
     )
