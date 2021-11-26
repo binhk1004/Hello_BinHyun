@@ -33,7 +33,7 @@ const Project = () => {
                         <p>GitHub : <a href="https://github.com/binhk1004/where_is_my_restaurant" target="_blank" rel="noopener noreferrer">github.com/binhk1004/where_is_my_restaurant</a></p>
                         <p>블로그 : <a href="https://velog.io/@binhk1004/series/%EC%9E%90%EB%B0%94%EB%A5%BC-Java%EB%B3%B4%EC%9E%90" target="_blank" rel="noopener noreferrer">velog.io/@binhk1004</a></p>
                         <p>도메인 : <a href="http://myrestaruant.tk/" target="_blank" rel="noopener noreferrer">myrestaruant.tk/</a></p>
-                        <p>Front-end : Html, Css, JavaScript, Jsp, Jquery, bootstrap</p>
+                        <p>Front-end : Jsp, Css, JavaScript, Jquery, bootstrap</p>
                         <p>Back-end : Java, Spring</p>
                         <p>DataBase : MySQL</p>
                         <p>API : kakao map</p>
@@ -62,8 +62,8 @@ const Project = () => {
                         </p>
                         <hr width="100%"></hr>
                         <p>주요기능 : 인적사항, 기술스택, 경력사항 등 기술</p>
-                        <p>GitHub : <a href="https://github.com/binhk1004/Hello_BinHyun" target="_blank" rel="noopener noreferrer">Hello_BinHyun</a></p>
-                        <p>도메인 : www.naver.com</p>
+                        <p>GitHub : <a href="https://github.com/binhk1004/Hello_BinHyun" target="_blank" rel="noopener noreferrer">github.com/binhk1004/Hello_BinHyun</a></p>
+                        <p>도메인 : <a href="https://binhyun.netlify.app/" target="_blank" rel="noopener noreferrer">binhyun.netlify.app</a></p>
                         <p>Front-end : Html, Css, JavaScript, React</p>
                         <p>Deployment: GitHub, Netlify</p>
                         </Card.Text>

@@ -36,3 +36,7 @@
   height: 100%;
   object-fit: contain;
 }
+
+.project-container{
+    background-color: white;
+}
