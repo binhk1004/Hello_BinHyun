@@ -70,7 +70,7 @@ const Project = () => {
                     </Card.Body>
                 </Card>
 
-                <Card border="dark" className="card-list" style={{ width: '75rem', height: '50rem' }}>
+                {/* <Card border="dark" className="card-list" style={{ width: '75rem', height: '50rem' }}>
                     <div className="card-title">
                         <h3>꺼져 코로나(React)</h3>
                     </div>
@@ -100,7 +100,7 @@ const Project = () => {
                         <p>Deployment: GitHub, Netlify</p>
                         </Card.Text>
                     </Card.Body>
-                </Card>
+                </Card> */}
             </div>
         </div>
     )
